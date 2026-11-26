@@ -35,7 +35,7 @@ LOCAL_JUDGE = {"base-llmaj-eval": "base_judge.jsonl",
 ASSET_BUCKETS = {"us-east-1": "ws-assets-prod-iad-r-iad-ed304a55c2ca1aee",
                 "us-west-2": "ws-assets-prod-iad-r-pdx-f3b3f9f1a7d6a3d0"}
 ASSET_PREFIX = "548b5be9-2da8-4c93-82f7-b0b474108ab3/lab1/eval_results"
-DEFAULT_FRONTIER = "global.anthropic.claude-sonnet-4-6"
+DEFAULT_FRONTIER = "global.anthropic.claude-sonnet-5-5"
 
 
 def model_package_group_name(base_model_id):
